@@ -21,10 +21,10 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     /**
      * Provides a view for an AdapterView (ListView, GridView, etc.)
      *
-     * @param position The position in the list of data that should be displayed in the
-     *                 list item view.
+     * @param position    The position in the list of data that should be displayed in the
+     *                    list item view.
      * @param convertView The recycled view to populate.
-     * @param parent The parent ViewGroup that is used for inflation.
+     * @param parent      The parent ViewGroup that is used for inflation.
      * @return The View for the position in the AdapterView.
      */
     @NonNull
@@ -32,9 +32,9 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
-        if(listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent,
+                    false);
         }
 
         // Get the {@link Attraction} object located at this position in the list
@@ -45,8 +45,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         nameTextView.setText(currentAttraction.getName());
 
         // Find the TextView in the list_item.xml layout with the description
-        TextView descTextView = (TextView) listItemView.findViewById(R.id
-                .desc_text_view);
+        TextView descTextView = (TextView) listItemView.findViewById(R.id.desc_text_view);
         descTextView.setText(currentAttraction.getDescription());
 
         // Find the ImageView in the list_item.xml layout with the ID of Attraction art

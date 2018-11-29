@@ -41,19 +41,20 @@ public class HistoryFragment extends Fragment {
 
         attractionList.add(new Attraction("history", "Harvard University", "Harvard University "
                 + "is America's oldest University, founded in 1636.", R.drawable.harvard));
-        attractionList.add(new Attraction("history", "Granary Burial Ground", "A small cemetery " +
-                "that serves as the final resting place for a number of " + "important characters" +
-                " from the American revolution including John Hancock" + " himself.", R.drawable
-                .granary));
+        attractionList.add(new Attraction("history", "Granary Burial Ground", "A small cemetery "
+                + "that serves as the final resting place for a number of " + "important " +
+                "characters" + " from the American revolution including John Hancock" + " himself" +
+                ".", R.drawable.granary));
         attractionList.add(new Attraction("history", "The Bunker Hill Monument", "An obelisk and " +
-                "" + "monument to the Battle of Bunker Hill.", R.drawable.bunker));
+                "" + "" + "monument to the Battle of Bunker Hill.", R.drawable.bunker));
         attractionList.add(new Attraction("history", "The Old North Church", "The famous spot of " +
-                "" + "the signal that warned residents of Cambridge that the British were " +
-                "approaching " + "by sea in 1775.", R.drawable.old_north));
+                "" + "" + "the signal that warned residents of Cambridge that the British were "
+                + "approaching " + "by sea in 1775.", R.drawable.old_north));
         attractionList.add(new Attraction("history", "Paul Revere's House", "Former home of Paul " +
-                "Revere when he set out on his famous ride toward Lexington.", R.drawable.revere));
+                "" + "Revere when he set out on his famous ride toward Lexington.", R.drawable
+                .revere));
         attractionList.add(new Attraction("history", "The USS Constitution", "Constructed in the " +
-                "" + "North End and steeped in Boston history." + ".", R.drawable
+                "" + "" + "North End and steeped in Boston history." + ".", R.drawable
                 .uss_constitution));
 
         return attractionList;

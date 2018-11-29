@@ -43,16 +43,15 @@ public class MuseumFragment extends Fragment {
                 "interactive experience where you can participate in tossing the tea and " +
                 "protesting taxes.", R.drawable.tea));
         attractionList.add(new Attraction("museum", "Museum of Fine Arts", "Boston's oldest, " +
-                "largest and best-known art institution.", R
-                .drawable.art));
+                "largest and best-known art institution.", R.drawable.art));
         attractionList.add(new Attraction("museum", "Museum of Science", "Home of the Hayden " +
                 "Planetarium and over 700 interactive exhibits", R.drawable.science));
         attractionList.add(new Attraction("museum", "Boston Children's Museum", "An interactive "
                 + "and educational museum designed specifically for children." + ".", R.drawable
                 .childrens_museum));
         attractionList.add(new Attraction("museum", "Harvard Art Museum", "The Harvard Art " +
-                "Museums house one of the largest and most renowned art collections in the United States.", R
-                .drawable.harvard_art_museums));
+                "Museums house one of the largest and most renowned art collections in the United" +
+                " States.", R.drawable.harvard_art_museums));
         attractionList.add(new Attraction("museum", "MIT Museum", "Temporary and permanent " +
                 "exhibitions at the nexus of art, science, and technology, as well as events, " +
                 "programs, and weekend demonstrations.", R.drawable.mit_museum));
