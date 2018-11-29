@@ -40,28 +40,17 @@ public class FoodFragment extends Fragment {
     private ArrayList<Attraction> getAttractionList() {
         ArrayList<Attraction> attractionList = new ArrayList<>();
 
-        attractionList.add(new Attraction("food", "Sam LaGrassa's", "American Fast Food. Soups, " +
-                "Deli, Vegetarian Friendly.", R
-                .drawable
-                .sam));
-        attractionList.add(new Attraction("food", "Salumeria Italiana",
-                "Great classic italian restaurant",
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.sam), getString(R.string.desc_sam), R.drawable.sam));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.sals),
+                getString(R.string.desc_sals),
                 R.drawable.salumeria_italiana));
-        attractionList.add(new Attraction("food", "Monica's Mercato & " +
-                "Salumeria", "Best Italian subs in town!", R.drawable.monica));
-        attractionList.add(new Attraction("food", "Regina Pizzeria", "Local " +
-                "chain with the best Pizza in Boston.", R.drawable.regina));
-        attractionList.add(new Attraction("food", "Ruth's Chris Steakhouse",
-                "Excellent steakhouse right in the heart of Boston.", R
-                .drawable.ruth));
-        attractionList.add(new Attraction("food", "Oleana", "Excellent Mediterranean tapas bar " +
-                "located in " +
-                "Cambridge's Inman Square.", R.drawable.oleana));
-        attractionList.add(new Attraction("food", "Dali", "Spanish tapas bar " +
-                "on the border Cambridge and Somerville.", R.drawable.dali));
-        attractionList.add(new Attraction("food", "Santouka Ramen", "Voted one of the best ramen " +
-                "restaurants in the U.S." +
-                "", R.drawable.santouka));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.monicas), getString(R.string.desc_monicas), R.drawable.monica));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.regina), getString(R.string.desc_regina), R.drawable.regina));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.ruths),
+                getString(R.string.desc_ruths), R.drawable.ruth));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.oleana), getString(R.string.desc_oleana), R.drawable.oleana));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.dali), getString(R.string.desc_dali), R.drawable.dali));
+        attractionList.add(new Attraction(getString(R.string.category_food), getString(R.string.santouka), getString(R.string.desc_santouka), R.drawable.santouka));
 
         return attractionList;
     }

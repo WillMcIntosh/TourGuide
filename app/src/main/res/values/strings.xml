@@ -7,6 +7,48 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Attraction categories-->
+    <string name="category_event">event</string>
+    <string name="category_food">food</string>
+    <string name="category_history">history</string>
+    <string name="category_museum">museum</string>
+
+    <!--Attraction names and descriptions-->
+    <!--Food-->
+    <string name="sam">"Sam LaGrassa's"</string>
+    <string name="sals">"Salumeria Italiana"</string>
+    <string name="monicas">"Monica's Mercato &amp; Salumeria"</string>
+    <string name="regina">"Regina Pizzeria"</string>
+    <string name="ruths">"Ruth's Chris Steakhouse"</string>
+    <string name="oleana">"Oleana"</string>
+    <string name="dali">"Dali"</string>
+    <string name="santouka">"Santouka Ramen"</string>
+
+    <string name="desc_sam">"American Fast Food. Soups, Deli, Vegetarian Friendly."</string>
+    <string name="desc_sals">"Great classic italian restaurant"</string>
+    <string name="desc_monicas">"Best Italian subs in town!"</string>
+    <string name="desc_regina">"Local chain with the best Pizza in Boston."</string>
+    <string name="desc_ruths">"Excellent steakhouse right in the heart of Boston."</string>
+    <string name="desc_oleana">"Excellent Mediterranean tapas bar located in Cambridge's Inman Square."</string>
+    <string name="desc_dali">"Spanish tapas bar on the border Cambridge and Somerville."</string>
+    <string name="desc_santouka">"Voted one of the best ramen restaurants in the U.S."</string>
+
+    <!--History-->
+
+    <!--Events-->
+    <string name="marathon">"Boston Marathon"</string>
+    <string name="red_sox">"Boston Red Sox"</string>
+    <string name="celtics">"Boston Celtics"</string>
+    <string name="bruins">"Boston Bruins"</string>
+    <string name="patriots">"New England Patriots"</string>
+    <string name="opera">"Boston Opera House"</string>
+
+    <string name="desc_marathon">"A local holiday, the marathon is always help on Patriot's day: the third Monday in April."</string>
+    <string name="desc_red_sox">"The Red Sox compete in Major League Baseball as a member club of the American League East division. The Red Sox have won nine World Series championships, most recently in 2018, and they have played in 13."</string>
+    <string name="desc_celtics">"NBA Team based in Boston, a member of the Eastern Conference Atlantic Division and former home of the great Larry Bird."</string>
+    <string name="desc_bruins">"A professional ice hockey team based in Boston. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League. The team has been in existence since 1924, and is the league's third-oldest team overall and the oldest in the United States."</string>
+    <string name="desc_patriots">"Home of Tom Brady and five time superbowl champs."</string>
+    <string name="desc_opera">"When you're completely sick of sports, check out a show at the Boston Opera House. Originally built as a movie palace, it opened on October 29, 1928 and was rededicated in 1980 as a home for the Opera Company of Boston."</string>
+
+    <!--Museums-->
 </resources>
