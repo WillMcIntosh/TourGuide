@@ -5,19 +5,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_food"
             android:icon="@drawable/baseline_fastfood_black_24"
             android:title="Food and Drink" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_history"
             android:icon="@drawable/baseline_account_balance_black_24"
             android:title="Historical Attractions" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_event"
             android:icon="@drawable/baseline_event_seat_black_24"
             android:title="Events" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_museum"
             android:icon="@drawable/baseline_extension_black_24"
             android:title="Museums" />
     </group>

@@ -1,9 +1,7 @@
 package com.mcintosh.tourguideapp;
 
+import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -47,7 +45,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -71,6 +68,30 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        FragmentManager fragmentManager = getFragmentManager();
+
+        switch (id) {
+            case R.id.nav_food:
+                setTitle("Food and Drink");
+                FoodFragment foodFragment = new FoodFragment();
+                fragmentManager.beginTransaction().replace(R.id.fragment, foodFragment).commit();
+                break;
+            case R.id.nav_history:
+                setTitle("Historical Attractions");
+                HistoryFragment historyFragment = new HistoryFragment();
+                fragmentManager.beginTransaction().replace(R.id.fragment, historyFragment).commit();
+                break;
+            case R.id.nav_event:
+                setTitle("Events");
+                EventFragment eventFragment = new EventFragment();
+                fragmentManager.beginTransaction().replace(R.id.fragment, eventFragment).commit();
+                break;
+            case R.id.nav_museum:
+                setTitle("Museums");
+                MuseumFragment museumFragment = new MuseumFragment();
+                fragmentManager.beginTransaction().replace(R.id.fragment, museumFragment).commit();
+                break;
+        }
 
 
 
