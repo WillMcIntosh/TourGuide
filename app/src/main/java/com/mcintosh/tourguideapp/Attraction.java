@@ -1,31 +1,31 @@
 package com.mcintosh.tourguideapp;
 
 public class Attraction {
-    private String mCategory;
-    private String mName;
-    private String mDescription;
-    private int mImageResourceId;
+    private String Category;
+    private String Name;
+    private String Description;
+    private int ImageResourceId;
 
     public Attraction(String Category, String Name, String Description, int ImageResourceId) {
-        this.mCategory = Category;
-        this.mName = Name;
-        this.mDescription = Description;
-        this.mImageResourceId = ImageResourceId;
+        this.Category = Category;
+        this.Name = Name;
+        this.Description = Description;
+        this.ImageResourceId = ImageResourceId;
     }
 
     public String getCategory() {
-        return mCategory;
+        return Category;
     }
 
     public String getName() {
-        return mName;
+        return Name;
     }
 
     public String getDescription() {
-        return mDescription;
+        return Description;
     }
 
     public int getImageResourceId() {
-        return mImageResourceId;
+        return ImageResourceId;
     }
 }
