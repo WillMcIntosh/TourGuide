@@ -34,6 +34,19 @@
     <string name="desc_santouka">"Voted one of the best ramen restaurants in the U.S."</string>
 
     <!--History-->
+    <string name="harvard">"Harvard University"</string>
+    <string name="granary">"Granary Burial Ground"</string>
+    <string name="bunker_hill">"The Bunker Hill Monument"</string>
+    <string name="old_north">"The Old North Church"</string>
+    <string name="paul">"Paul Revere's House"</string>
+    <string name="uss_constitution">"The USS Constitution"</string>
+
+    <string name="desc_harvard">"Harvard University is America's oldest University, founded in 1636."</string>
+    <string name="desc_granary">"A small cemetery that serves as the final resting place for a number of important characters from the American revolution including John Hancock himself."</string>
+    <string name="desc_bunker_hill">"An obelisk and monument to the Battle of Bunker Hill."</string>
+    <string name="desc_old_north">"The famous spot of the signal that warned residents of Cambridge that the British were approaching by sea in 1775."</string>
+    <string name="desc_paul">"Former home of Paul Revere when he set out on his famous ride toward Lexington."</string>
+    <string name="desc_uss_constitution">"Constructed in the North End and steeped in Boston history."</string>
 
     <!--Events-->
     <string name="marathon">"Boston Marathon"</string>
@@ -59,10 +72,10 @@
     <string name="mit_museum">"MIT Museum"</string>
 
     <string name="desc_tea_party">"An interactive experience where you can participate in tossing the tea and protesting taxes."</string>
-    <string name="desc_fine_arts">"Boston Red Sox"</string>
-    <string name="desc_m_of_science">"Boston Celtics"</string>
-    <string name="desc_childrens">"Boston Bruins"</string>
-    <string name="desc_harvard_art">"New England Patriots"</string>
-    <string name="desc_mit_museum">"Boston Opera House"</string>
+    <string name="desc_fine_arts">"Boston's oldest, largest and best-known art institution."</string>
+    <string name="desc_m_of_science">"Home of the Hayden Planetarium and over 700 interactive exhibits"</string>
+    <string name="desc_childrens">"An interactive and educational museum designed specifically for children."</string>
+    <string name="desc_harvard_art">"The Harvard Art Museums house one of the largest and most renowned art collections in the United States."</string>
+    <string name="desc_mit_museum">"Temporary and permanent exhibitions at the nexus of art, science, and technology, as well as events, programs, and weekend demonstrations."</string>
 
 </resources>

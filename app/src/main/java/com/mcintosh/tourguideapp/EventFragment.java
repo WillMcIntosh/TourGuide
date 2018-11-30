@@ -39,13 +39,18 @@ public class EventFragment extends Fragment {
     private ArrayList<Attraction> getAttractionList() {
         ArrayList<Attraction> attractionList = new ArrayList<>();
 
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.marathon), getString(R.string.desc_marathon), R
-                .drawable.marathon));
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.red_sox), getString(R.string.desc_red_sox), R.drawable.red_sox));
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.celtics), getString(R.string.desc_celtics), R.drawable.celtics));
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.bruins), getString(R.string.desc_bruins), R.drawable.bruins));
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.patriots), getString(R.string.desc_patriots), R.drawable.pats));
-        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string.opera), getString(R.string.desc_opera), R.drawable.opera));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .marathon), getString(R.string.desc_marathon), R.drawable.marathon));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .red_sox), getString(R.string.desc_red_sox), R.drawable.red_sox));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .celtics), getString(R.string.desc_celtics), R.drawable.celtics));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .bruins), getString(R.string.desc_bruins), R.drawable.bruins));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .patriots), getString(R.string.desc_patriots), R.drawable.pats));
+        attractionList.add(new Attraction(getString(R.string.category_event), getString(R.string
+                .opera), getString(R.string.desc_opera), R.drawable.opera));
 
 
         return attractionList;

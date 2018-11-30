@@ -39,26 +39,19 @@ public class MuseumFragment extends Fragment {
     private ArrayList<Attraction> getAttractionList() {
         ArrayList<Attraction> attractionList = new ArrayList<>();
 
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.tea_party), , R.drawable.tea));
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.fine_arts), "Boston's oldest, " +
-                "largest and best-known art institution.", R.drawable.art));
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.m_of_science), "Home of the Hayden " +
-                "Planetarium and over 700 interactive exhibits", R.drawable.science));
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.childrens), "An interactive "
-                + "and educational museum designed specifically for children." + ".", R.drawable
-                .childrens_museum));
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.harvard_art), "The Harvard Art " +
-                "Museums house one of the largest and most renowned art collections in the United" +
-                " States.", R.drawable.harvard_art_museums));
-        attractionList.add(new Attraction(getString(R.string.category_museum)
-                , getString(R.string.mit_museum), "Temporary and permanent " +
-                "exhibitions at the nexus of art, science, and technology, as well as events, " +
-                "programs, and weekend demonstrations.", R.drawable.mit_museum));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .tea_party), getString(R.string.desc_tea_party), R.drawable.tea));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .fine_arts), getString(R.string.desc_fine_arts), R.drawable.art));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .m_of_science), getString(R.string.desc_m_of_science), R.drawable.science));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .childrens), getString(R.string.desc_childrens), R.drawable.childrens_museum));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .harvard_art), getString(R.string.desc_harvard_art), R.drawable
+                .harvard_art_museums));
+        attractionList.add(new Attraction(getString(R.string.category_museum), getString(R.string
+                .mit_museum), getString(R.string.desc_mit_museum), R.drawable.mit_museum));
 
 
         return attractionList;
